@@ -17,7 +17,8 @@ include "connection.php";
 			if(mysqli_num_rows($result)>0){
 				$uArray=mysqli_fetch_array($result);
 				$_SESSION["login"]=true;
-
+            	$_SESSION["rol"] = $uArray["role"];
+            	$_SESSION["id"] = $uArray["id"];
 				header("location:index.php");
 
 			}else
