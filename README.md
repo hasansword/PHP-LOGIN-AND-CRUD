@@ -1,0 +1,2 @@
+# deneme
+bu repo denemedir
