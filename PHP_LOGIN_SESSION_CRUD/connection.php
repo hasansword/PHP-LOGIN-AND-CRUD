@@ -3,8 +3,8 @@
 
 $hostname="localhost";
 $user="root";
-$password="hasank123";
-$dbname="7broz";
+$password="password";
+$dbname="dbname";
 $conn=new mysqli($hostname,$user,$password,$dbname);
 mysqli_set_charset($conn,"utf8");
 
